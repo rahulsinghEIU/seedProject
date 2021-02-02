@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: change script permissions
+      run: chmod +x scripts/deploy.sh
     - name: run deploy script
       env:
           AWS_ACCESS_KEY_ID: ${{ secrets.awsaccessid }}
