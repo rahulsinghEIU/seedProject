@@ -1,4 +1,4 @@
 #!/bin/bash
-instanceID=$(aws --profile seedTest ec2 describe-instances --filters "Name=tag:Name,Values=seed-test-asg" --query Reservations[*].Instances[*].[InstanceId] --output text)
+instanceID=$(aws ec2 describe-instances --filters "Name=tag:Name,Values=seed-test-asg" --query Reservations[*].Instances[*].[InstanceId] --output text)
 
 aws ec2 terminate-instances --instance-ids $instanceID
