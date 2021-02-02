@@ -1,0 +1,22 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Release application
+
+on:
+  push:
+    branches: [ main ]
+ 
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: run deploy script
+      env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.awsaccessid }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.awssecretkey }}
+          AWS_DEFAULT_REGION: eu-west-1
+      run: ./scripts/deploy.sh
