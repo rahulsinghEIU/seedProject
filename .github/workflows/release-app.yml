@@ -18,7 +18,7 @@ jobs:
       run: chmod +x scripts/deploy.sh
     - name: run deploy script
       env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.awsaccessid }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.awssecretkey }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWSACCESSKEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWSSECRETKEY }}
           AWS_DEFAULT_REGION: eu-west-1
       run: ./scripts/deploy.sh
