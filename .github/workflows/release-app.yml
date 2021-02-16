@@ -17,7 +17,7 @@ jobs:
     - name: change script permissions
       run: chmod +x scripts/deploy.sh
     - name: create PEM file
-      run: echo ${{ secrets.DEPLOYSSHKEY }} > deploy.pem
+      run: echo "${{ secrets.DEPLOYSSHKEY }}" > deploy.pem
     - name: provide permissions for PEM
       run: chmod 400 deploy.pem
     - name: run deploy script
