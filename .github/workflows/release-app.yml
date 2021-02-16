@@ -16,6 +16,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: change script permissions
       run: chmod +x scripts/deploy.sh
+    - name: create PEM file
+      run: echo ${{ secrets.DEPLOYSSHKEY }} > ~/.ssh/deploy.pem
     - name: run deploy script
       env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWSACCESSKEY }}
