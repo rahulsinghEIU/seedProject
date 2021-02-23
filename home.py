@@ -4,7 +4,7 @@ from flask_restful import Api, Resource
 app = Flask(__name__)
 api = Api(app)
 
-names = {"guy": "dev", "rahul": "dev2"}
+names = {"guy": "dev3", "rahul": "dev2"}
 
 
 class Hello(Resource):
