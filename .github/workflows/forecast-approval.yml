@@ -52,7 +52,7 @@ jobs:
         run: |
           RESPONSE=$(curl -s -o response.txt -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -u "${{ secrets.FORECASTING_DATA_API_USER }}:${{ secrets.FORECASTING_DATA_API_PASS }}" \
+            -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
             -d "{
               \"invoke_route\": \"forecast_approval\",
               \"forecast\": \"country\\ca\",
