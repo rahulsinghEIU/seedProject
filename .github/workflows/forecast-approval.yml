@@ -36,15 +36,11 @@ jobs:
           fi
 
           echo "Metadata file found at: $METADATA_FILE"
-            echo "Metadata file changed. Extracting values..."
-            MODEL_VERSION=$(jq -r '.modelContainerVersion' $METADATA_FILE)
-            ANALYST_BRANCH=$(jq -r '.branchName' $METADATA_FILE)
+          echo "Metadata file changed. Extracting values..."
+          MODEL_VERSION=$(jq -r '.modelContainerVersion' $METADATA_FILE)
+          ANALYST_BRANCH=$(jq -r '.branchName' $METADATA_FILE)
 
-            echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
-            echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
-            echo "model_version=$MODEL_VERSION"
-            echo "analyst_branch=$ANALYST_BRANCH"
-          else
-            echo "forecast_metadata.json not changed. Exiting."
-            exit 0
-          fi
+          echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
+          echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
+          echo "model_version=$MODEL_VERSION"
+          echo "analyst_branch=$ANALYST_BRANCH"
