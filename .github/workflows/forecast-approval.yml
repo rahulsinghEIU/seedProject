@@ -20,16 +20,17 @@ jobs:
         run: |
           git fetch --depth=2 origin ${{ github.ref }}
           CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
-          echo "changed=$CHANGED_FILES" >> $GITHUB_OUTPUT
-          echo "Changed files: $CHANGED_FILES"
+          METADATA_FILE=$(echo "$CHANGED_FILES" | tr ' ' '\n' | grep 'forecast_metadata.json$' | head -n 1)
+          echo "changed=$METADATA_FILE" >> $GITHUB_OUTPUT
+          echo "Changed files: $METADATA_FILE"
 
       # Step 3: Read forecast_metadata.json if changed
       - name: Extract metadata
         id: metadata
         run: |
           # Find the first changed file that ends with forecast_metadata.json
-          METADATA_FILE=$(echo "${{ steps.changes.outputs.changed }}" | tr ' ' '\n' | grep 'forecast_metadata.json$' | head -n 1)
-
+          # METADATA_FILE=$(echo "${{ steps.changes.outputs.changed }}" | tr ' ' '\n' | grep 'forecast_metadata.json$' | head -n 1)
+          METADATA_FILE="${{ steps.changes.outputs.changed }}"
           if [ -z "$METADATA_FILE" ]; then
             echo "No forecast_metadata.json file found in the changed files. Exiting."
             exit 0
