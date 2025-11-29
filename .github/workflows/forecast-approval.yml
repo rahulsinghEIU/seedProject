@@ -45,3 +45,31 @@ jobs:
           echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
           echo "model_version=$MODEL_VERSION"
           echo "analyst_branch=$ANALYST_BRANCH"
+      
+      # Step 4: Call the approval API
+      - name: Call Approval API
+        id: api_call
+        run: |
+          RESPONSE=$(curl -s -o response.txt -w "%{http_code}" -X POST \
+            -H "Content-Type: application/json" \
+            -u "${{ secrets.FORECASTING_DATA_API_USER }}:${{ secrets.FORECASTING_DATA_API_PASS }}" \
+            -d "{
+              \"invoke_route\": \"forecast_approval\",
+              \"forecast\": \"country\\ca\",
+              \"model_version\": \"\",
+              \"model\": \"all\",
+              \"run_dq\": \"True\",
+              \"branch_name\": \"${{ steps.metadata.outputs.analyst_branch }}\",
+              \"residual_file_path\": \"${{ steps.metadata.outputs.analyst_branch }}\",
+              \"merge_into_main\": \"True\"
+            }" \
+            "${{ secrets.API_URL }}")
+
+          echo "API HTTP Status: $RESPONSE"
+          echo "API Response: $(cat response.txt)"
+
+          if [ "$RESPONSE" != "200" ]; then
+            echo "API call failed"
+            echo "failed=true" >> $GITHUB_OUTPUT
+            exit 1
+          fi
