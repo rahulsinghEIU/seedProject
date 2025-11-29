@@ -55,7 +55,7 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
             -d "{
               \"invoke_route\": \"forecast_approval\",
-              \"forecast\": \"country\\ca\",
+              \"forecast\": \"country\\\\ca\",
               \"model_version\": \"\",
               \"model\": \"all\",
               \"run_dq\": \"True\",
