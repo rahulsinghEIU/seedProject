@@ -27,11 +27,18 @@ jobs:
       - name: Extract metadata
         id: metadata
         run: |
-          FILE="forecast_metadata.json"
-          if echo "${{ steps.changes.outputs.changed }}" | grep -q "$FILE"; then
+          # Find the first changed file that ends with forecast_metadata.json
+          METADATA_FILE=$(echo "${{ steps.changes.outputs.changed }}" | tr ' ' '\n' | grep 'forecast_metadata.json$' | head -n 1)
+
+          if [ -z "$METADATA_FILE" ]; then
+            echo "No forecast_metadata.json file found in the changed files. Exiting."
+            exit 0
+          fi
+
+          echo "Metadata file found at: $METADATA_FILE"
             echo "Metadata file changed. Extracting values..."
-            MODEL_VERSION=$(jq -r '.modelContainerVersion' $FILE)
-            ANALYST_BRANCH=$(jq -r '.branchName' $FILE)
+            MODEL_VERSION=$(jq -r '.modelContainerVersion' $METADATA_FILE)
+            ANALYST_BRANCH=$(jq -r '.branchName' $METADATA_FILE)
 
             echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
             echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
