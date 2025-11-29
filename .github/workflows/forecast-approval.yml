@@ -1,0 +1,43 @@
+name: Forecast Approval Trigger
+
+on:
+  push:
+    branches:
+      - 'release*'     # Trigger when PR is merged to any release* branch
+
+jobs:
+  trigger-endpoint:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout the PR merge commit
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Identify changed files in the merge commit
+      - name: Get changed files
+        id: changes
+        run: |
+          git fetch --depth=2 origin ${{ github.ref }}
+          CHANGED_FILES=$(git diff --name-only HEAD~1 HEAD)
+          echo "changed=$CHANGED_FILES" >> $GITHUB_OUTPUT
+          echo "Changed files: $CHANGED_FILES"
+
+      # Step 3: Read forecast_metadata.json if changed
+      - name: Extract metadata
+        id: metadata
+        run: |
+          FILE="forecast_metadata.json"
+          if echo "${{ steps.changes.outputs.changed }}" | grep -q "$FILE"; then
+            echo "Metadata file changed. Extracting values..."
+            MODEL_VERSION=$(jq -r '.modelContainerVersion' $FILE)
+            ANALYST_BRANCH=$(jq -r '.branchName' $FILE)
+
+            echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
+            echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
+            echo "model_version=$MODEL_VERSION"
+            echo "analyst_branch=$ANALYST_BRANCH"
+          else
+            echo "forecast_metadata.json not changed. Exiting."
+            exit 0
+          fi
