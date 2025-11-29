@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+pce_p,2027-Q4,2.100619805,pce_p_res,annual_pct
+pce_p,2028-Q4,2,pce_p_res,annual_pct
+pce_p,2029-Q4,1.798006958,pce_p_res,annual_pct
+gce_p,2027-Q4,2.99009901,gce_p_res,annual_pct
+gce_p,2028-Q4,2.99009901,gce_p_res,annual_pct
+gce_p,2029-Q4,2.991080278,gce_p_res,annual_pct
+gfcf_p,2027-Q4,-0.5,gfcf_p_res,annual_pct
+gfcf_p,2028-Q4,-0.5,gfcf_p_res,annual_pct
+gfcf_p,2029-Q4,-0.5,gfcf_p_res,annual_pct
+stk,2027-Q4,6,stk_res,annual
+stk,2028-Q4,7,stk_res,annual
+stk,2029-Q4,7,stk_res,annual

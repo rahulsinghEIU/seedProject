@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+dap_p_usd,2028-Q4,443.72,dap_p_usd_res,annual
+dap_p_usd,2029-Q4,424.41,dap_p_usd_res,annual
+dap_p_usd,2030-Q4,415.17,dap_p_usd_res,annual
+dap_p_usd,2025-Q3,630.4808984,dap_p_usd_res,
+dap_p_usd,2025-Q4,659.9638181,dap_p_usd_res,
+dap_p_usd,2026-Q1,655.9949635,dap_p_usd_res,
+dap_p_usd,2026-Q2,591.9263111,dap_p_usd_res,
+dap_p_usd,2026-Q3,531.259534,dap_p_usd_res,
+dap_p_usd,2026-Q4,574.9169343,dap_p_usd_res,
+dap_p_usd,2027-Q1,560.1754745,dap_p_usd_res,
+dap_p_usd,2027-Q2,479.6644245,dap_p_usd_res,
+dap_p_usd,2027-Q3,441.6768164,dap_p_usd_res,
+dap_p_usd,2027-Q4,462.6550477,dap_p_usd_res,

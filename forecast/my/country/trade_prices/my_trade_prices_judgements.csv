@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+xg_p_usd,2028-Q4,1.786979652,xg_p_usd_res,annual_pct
+xg_p_usd,2029-Q4,2.486730375,xg_p_usd_res,annual_pct
+xg_p_usd,2030-Q4,1.8,xg_p_usd_res,annual_pct
+mg_p_usd,2028-Q4,0.593843093,mg_p_usd_res,annual_pct
+mg_p_usd,2029-Q4,1.712803404,mg_p_usd_res,annual_pct
+mg_p_usd,2030-Q4,1.5,mg_p_usd_res,annual_pct

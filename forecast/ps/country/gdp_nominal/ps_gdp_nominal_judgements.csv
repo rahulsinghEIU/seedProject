@@ -1,0 +1,11 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_pce_p,2025,5.00567312672584,yy_pce_p_res,pct
+yy_pce_p,2026,8.467462098327537,yy_pce_p_res,pct
+yy_gce_p,2025,5.00567312672584,yy_gce_p_res,pct
+yy_gce_p,2026,8.467462098327584,yy_gce_p_res,pct
+yy_gfcf_p,2025,-18.56989854482964,yy_gfcf_p_res,pct
+yy_gfcf_p,2026,4.520472203638426,yy_gfcf_p_res,pct
+yy_stk,2025,0.0,yy_stk_res,
+yy_stk,2026,0.0,yy_stk_res,
+yy_gdp,2025,20,yy_gdp_res,pct
+yy_gdp,2026,10,yy_gdp_res,pct

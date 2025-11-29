@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+xr,2024-Q1,-0.879120879,xr_res,pct
+xr,2024-Q2,-2.73466371,xr_res,pct
+xr,2024-Q3,-2.507598784,xr_res,pct
+xr,2024-Q4,-0.545596259,xr_res,pct
+xr,2025-Q1,-0.705329154,xr_res,pct
+xr,2025-Q2,0.157853197,xr_res,pct
+xr,2025-Q3,-0.630417652,xr_res,pct
+xr,2025-Q4,-0.951625694,xr_res,pct
+xr,2026-Q4,-0.158478605,xr_res,annual_pct
+xr,2027-Q4,-1.19047619,xr_res,annual_pct
+xr,2028-Q4,-0.401606426,xr_res,annual_pct

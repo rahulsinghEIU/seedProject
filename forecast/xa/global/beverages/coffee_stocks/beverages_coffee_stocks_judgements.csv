@@ -1,0 +1,5 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_coffee_stk,2024,20,yy_coffee_stk_res,
+yy_coffee_stk,2025,17.1,yy_coffee_stk_res,
+yy_coffee_stk,2026,21.76,yy_coffee_stk_res,
+yy_coffee_stk,2027,30.55,yy_coffee_stk_res,

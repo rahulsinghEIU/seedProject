@@ -1,0 +1,17 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_wage_r,2025,5.588749971,yy_wage_r_res,pct
+yy_wage_r,2026,3.857239521,yy_wage_r_res,pct
+yy_wage_r,2027,3.191681664,yy_wage_r_res,pct
+yy_wage_r,2028,3.288758248,yy_wage_r_res,pct
+yy_wage_r,2029,3.186892638,yy_wage_r_res,pct
+yy_ulc,2025,5.331419396,yy_ulc_res,pct
+yy_ulc,2026,4.237164905,yy_ulc_res,pct
+yy_ulc,2027,3.014556497,yy_ulc_res,pct
+yy_ulc,2028,3.090549291,yy_ulc_res,pct
+yy_ulc,2029,3.080479876,yy_ulc_res,pct
+yy_lcph,2024,14.58907527,yy_lcph_res,pct
+yy_lcph,2025,7.87506148,yy_lcph_res,pct
+yy_lcph,2026,7,yy_lcph_res,pct
+yy_lcph,2027,6,yy_lcph_res,pct
+yy_lcph,2028,6,yy_lcph_res,pct
+yy_lcph,2029,6,yy_lcph_res,pct

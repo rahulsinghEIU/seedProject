@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+sorghum_p_usd,2025-Q3,144,sorghum_p_usd_res,
+sorghum_p_usd,2025-Q4,147,sorghum_p_usd_res,
+sorghum_p_usd,2026-Q1,147,sorghum_p_usd_res,
+sorghum_p_usd,2026-Q2,160,sorghum_p_usd_res,
+sorghum_p_usd,2026-Q3,153,sorghum_p_usd_res,
+sorghum_p_usd,2026-Q4,153.0,sorghum_p_usd_res,
+sorghum_p_usd,2027-Q1,156.437844759653,sorghum_p_usd_res,
+sorghum_p_usd,2027-Q2,168.707479642763,sorghum_p_usd_res,
+sorghum_p_usd,2027-Q3,159.505253480431,sorghum_p_usd_res,
+sorghum_p_usd,2027-Q4,153.370436038876,sorghum_p_usd_res,
+sorghum_p_usd,2028-Q4,169.474331822958,sorghum_p_usd_res,annual
+sorghum_p_usd,2029-Q4,174.6,sorghum_p_usd_res,annual
+sorghum_p_usd,2030-Q4,179.8,sorghum_p_usd_res,annual

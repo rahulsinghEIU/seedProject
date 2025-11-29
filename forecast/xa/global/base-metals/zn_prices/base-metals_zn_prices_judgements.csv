@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+zn_p_usd,2025-Q3,127.46,zn_p_usd_res,
+zn_p_usd,2025-Q4,128.82,zn_p_usd_res,
+zn_p_usd,2026-Q1,111.12,zn_p_usd_res,
+zn_p_usd,2026-Q2,128.5,zn_p_usd_res,
+zn_p_usd,2026-Q3,126.02,zn_p_usd_res,
+zn_p_usd,2026-Q4,138.33,zn_p_usd_res,
+zn_p_usd,2027-Q1,128.71,zn_p_usd_res,
+zn_p_usd,2027-Q2,119.77,zn_p_usd_res,
+zn_p_usd,2027-Q3,127.46,zn_p_usd_res,
+zn_p_usd,2027-Q4,128.82,zn_p_usd_res,
+zn_p_usd,2028-Q4,117.93,zn_p_usd_res,annual
+zn_p_usd,2029-Q4,111.28,zn_p_usd_res,annual
+zn_p_usd,2030-Q4,106,zn_p_usd_res,annual

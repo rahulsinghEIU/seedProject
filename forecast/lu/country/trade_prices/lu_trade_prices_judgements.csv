@@ -1,0 +1,11 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_xg_p_usd,2025,2.1612524736853045,yy_xg_p_usd_res,pct
+yy_xg_p_usd,2026,2.696417184045252,yy_xg_p_usd_res,pct
+yy_xg_p_usd,2027,2.11414259499521,yy_xg_p_usd_res,pct
+yy_xg_p_usd,2028,2.752612611393501,yy_xg_p_usd_res,pct
+yy_xg_p_usd,2029,2.6119425873669,yy_xg_p_usd_res,pct
+yy_mg_p_usd,2025,-27.492865512289544,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2026,7.74842225813186,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2027,21.188305470168743,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2028,17.42785627745842,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2029,14.3357129414835,yy_mg_p_usd_res,pct

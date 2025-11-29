@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_sdc,2025,0.177363852,yy_sdc_res,pct
+yy_sdc,2026,0.18055071,yy_sdc_res,pct
+yy_mss,2025,4.089102149,yy_mss_res,pct
+yy_mss,2026,4.119948836,yy_mss_res,pct
+yy_mst,2025,1.977342129,yy_mst_res,pct
+yy_mst,2026,1.977342129,yy_mst_res,pct

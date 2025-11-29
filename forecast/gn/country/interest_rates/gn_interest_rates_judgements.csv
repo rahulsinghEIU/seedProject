@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_r3m,2022,11.5,yy_r3m_res,
+yy_r3m,2023,11.25,yy_r3m_res,
+yy_r3m,2024,10.875,yy_r3m_res,
+yy_r3m,2025,9.9,yy_r3m_res,
+yy_r3m,2026,9.1,yy_r3m_res,
+yy_rl,2025,20,yy_rl_res,
+yy_rl,2026,20,yy_rl_res,
+yy_rd,2022,3.3,yy_rd_res,
+yy_rd,2023,3.2,yy_rd_res,
+yy_rd,2024,3,yy_rd_res,
+yy_rd,2025,3,yy_rd_res,
+yy_rd,2026,3,yy_rd_res,

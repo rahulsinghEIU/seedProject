@@ -1,0 +1,9 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+stk,2028-Q4,40,stk_res,annual
+stk,2029-Q4,25,stk_res,annual
+gce_p,2026-Q2,1,gce_p_res,pct
+gce_p,2026-Q3,0.5,gce_p_res,pct
+gce_p,2026-Q4,0.5,gce_p_res,pct
+gce_p,2028-Q4,3,gce_p_res,annual_pct
+gce_p,2029-Q4,3,gce_p_res,annual_pct
+gce_p,2030-Q4,3,gce_p_res,annual_pct

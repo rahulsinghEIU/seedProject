@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+alum_p_usd,2025-Q3,2566,alum_p_usd_res,
+alum_p_usd,2025-Q4,2550,alum_p_usd_res,
+alum_p_usd,2026-Q1,2591,alum_p_usd_res,
+alum_p_usd,2026-Q2,2632,alum_p_usd_res,
+alum_p_usd,2026-Q3,2738,alum_p_usd_res,
+alum_p_usd,2026-Q4,2769,alum_p_usd_res,
+alum_p_usd,2027-Q1,2850,alum_p_usd_res,
+alum_p_usd,2027-Q2,2750,alum_p_usd_res,
+alum_p_usd,2027-Q3,2650,alum_p_usd_res,
+alum_p_usd,2027-Q4,2750,alum_p_usd_res,
+alum_p_usd,2028-Q4,2970,alum_p_usd_res,annual
+alum_p_usd,2029-Q4,2970,alum_p_usd_res,annual
+alum_p_usd,2030-Q4,2970.0,alum_p_usd_res,annual

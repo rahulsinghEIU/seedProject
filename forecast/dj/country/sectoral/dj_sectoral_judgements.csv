@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_gdpp_r,2025,5.2,yy_gdpp_r_res,pct
+yy_gdpp_r,2026,5.4,yy_gdpp_r_res,pct
+yy_agri_r_ratio_gdpp_r,2025,1.639423649,yy_agri_r_ratio_gdpp_r_res,
+yy_agri_r_ratio_gdpp_r,2026,1.60675961,yy_agri_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2025,17.28932247,yy_ind_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2026,17.25651541,yy_ind_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2025,81.07125388,yy_serv_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2026,81.13672498,yy_serv_r_ratio_gdpp_r_res,
+yy_man_r_ratio_ind_r,2024,27.2383726350806,yy_man_r_ratio_ind_r_res,
+yy_man_r_ratio_ind_r,2025,26.97895956,yy_man_r_ratio_ind_r_res,
+yy_man_r_ratio_ind_r,2026,26.67121478,yy_man_r_ratio_ind_r_res,

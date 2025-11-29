@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+xg_p_usd,2025-Q4,3.303997447,xg_p_usd_res,annual_pct
+xg_p_usd,2026-Q4,5.287729981,xg_p_usd_res,annual_pct
+xg_p_usd,2027-Q4,4.906200032,xg_p_usd_res,annual_pct
+xg_p_usd,2028-Q4,2.394131467,xg_p_usd_res,annual_pct
+xg_p_usd,2029-Q4,1.987532015,xg_p_usd_res,annual_pct
+xg_p_usd,2030-Q4,2.4,xg_p_usd_res,annual_pct
+xg_p_usd,2025-Q3,2.3,xg_p_usd_res,pct
+mg_p_usd,2025-Q4,8.936161356,mg_p_usd_res,annual_pct
+mg_p_usd,2026-Q4,3.097660258,mg_p_usd_res,annual_pct
+mg_p_usd,2027-Q4,6.015336705,mg_p_usd_res,annual_pct
+mg_p_usd,2028-Q4,5.2,mg_p_usd_res,annual_pct
+mg_p_usd,2029-Q4,4.027225825,mg_p_usd_res,annual_pct
+mg_p_usd,2030-Q4,3,mg_p_usd_res,annual_pct

@@ -1,0 +1,6 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_sdc,2025,23,yy_sdc_res,pct
+yy_sdc,2026,25,yy_sdc_res,pct
+yy_sdc,2027,26,yy_sdc_res,pct
+yy_sdc,2028,24,yy_sdc_res,pct
+yy_sdc,2029,20,yy_sdc_res,pct

@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+cu_p_usd,2025-Q3,444.146,cu_p_usd_res,
+cu_p_usd,2025-Q4,458.128,cu_p_usd_res,
+cu_p_usd,2026-Q1,453.592,cu_p_usd_res,
+cu_p_usd,2026-Q2,462.664,cu_p_usd_res,
+cu_p_usd,2026-Q3,476.272,cu_p_usd_res,
+cu_p_usd,2026-Q4,480.808,cu_p_usd_res,
+cu_p_usd,2027-Q1,494.416,cu_p_usd_res,
+cu_p_usd,2027-Q2,498.952,cu_p_usd_res,
+cu_p_usd,2027-Q3,508.023,cu_p_usd_res,
+cu_p_usd,2027-Q4,517.095,cu_p_usd_res,
+cu_p_usd,2028-Q4,526.7,cu_p_usd_res,annual
+cu_p_usd,2029-Q4,542,cu_p_usd_res,annual
+cu_p_usd,2030-Q4,552.6,cu_p_usd_res,annual

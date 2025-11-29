@@ -1,0 +1,15 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+pce_p,2025-Q3,1.1,pce_p_res,pct
+pce_p,2025-Q4,0.8,pce_p_res,pct
+pce_p,2026-Q1,2,pce_p_res,pct
+pce_p,2026-Q2,0.9,pce_p_res,pct
+pce_p,2026-Q3,0.6,pce_p_res,pct
+pce_p,2026-Q4,0.5,pce_p_res,pct
+gce_p,2026-Q4,2,gce_p_res,pct
+gce_p,2025-Q3,0.8,gce_p_res,pct
+gce_p,2025-Q4,1,gce_p_res,pct
+gce_p,2026-Q1,2,gce_p_res,pct
+gce_p,2026-Q2,1,gce_p_res,pct
+gce_p,2026-Q3,0.8,gce_p_res,pct
+stk,2027-Q4,954,stk_res,annual
+gfcf_p,2027-Q4,6,gfcf_p_res,annual_pct

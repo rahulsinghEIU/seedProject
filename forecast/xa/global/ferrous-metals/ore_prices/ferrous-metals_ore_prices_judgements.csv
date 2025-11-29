@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+ore_p_usd,2025-Q3,100,ore_p_usd_res,
+ore_p_usd,2025-Q4,95,ore_p_usd_res,
+ore_p_usd,2026-Q1,99,ore_p_usd_res,
+ore_p_usd,2026-Q2,96,ore_p_usd_res,
+ore_p_usd,2026-Q3,95,ore_p_usd_res,
+ore_p_usd,2026-Q4,92,ore_p_usd_res,
+ore_p_usd,2027-Q1,96,ore_p_usd_res,
+ore_p_usd,2027-Q2,93,ore_p_usd_res,
+ore_p_usd,2027-Q3,92,ore_p_usd_res,
+ore_p_usd,2027-Q4,89,ore_p_usd_res,
+ore_p_usd,2028-Q4,97.15,ore_p_usd_res,annual
+ore_p_usd,2029-Q4,99.59,ore_p_usd_res,annual
+ore_p_usd,2030-Q4,100.84,ore_p_usd_res,annual

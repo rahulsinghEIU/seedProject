@@ -1,0 +1,15 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+r3m_e,2025-Q4,1.8,r3m_e_res,annual
+r3m_e,2026-Q4,1.8,r3m_e_res,annual
+r3m_e,2027-Q4,1.8,r3m_e_res,annual
+r3m_e,2028-Q4,1.8,r3m_e_res,annual
+r3m_e,2029-Q4,1.8,r3m_e_res,annual
+cpi_e,2025-Q4,0.49,cpi_e_res,pct
+cpi_e,2026-Q4,0.5,cpi_e_res,pct
+cpi_e,2027-Q4,1.94950495,cpi_e_res,annual_pct
+cpi_e,2028-Q4,1.84952947,cpi_e_res,annual_pct
+cpi_e,2029-Q4,1.850445986,cpi_e_res,annual_pct
+cpi_e,2025-Q3,0.47,cpi_e_res,pct
+cpi_e,2026-Q1,0.51,cpi_e_res,pct
+cpi_e,2026-Q2,0.51,cpi_e_res,pct
+cpi_e,2026-Q3,0.5,cpi_e_res,pct

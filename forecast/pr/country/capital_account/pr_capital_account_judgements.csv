@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_fdi_in_ratio_gdp,2025,3.307877353,yy_fdi_in_ratio_gdp_res,
+yy_fdi_in_ratio_gdp,2026,3.204398955,yy_fdi_in_ratio_gdp_res,
+yy_fdi_in_ratio_gdp,2027,3.1,yy_fdi_in_ratio_gdp_res,
+yy_fdi_out_ratio_gdp,2025,0.551312892,yy_fdi_out_ratio_gdp_res,
+yy_fdi_out_ratio_gdp,2026,0.534066493,yy_fdi_out_ratio_gdp_res,
+yy_fdi_out_ratio_gdp,2027,0.5,yy_fdi_out_ratio_gdp_res,
+yy_fpi_out_ratio_gdp,2025,0.551312892,yy_fpi_out_ratio_gdp_res,
+yy_fpi_out_ratio_gdp,2026,0.534066493,yy_fpi_out_ratio_gdp_res,
+yy_fpi_out_ratio_gdp,2027,0.5,yy_fpi_out_ratio_gdp_res,
+yy_fpi_in_ratio_gdp,2025,1.653938676,yy_fpi_in_ratio_gdp_res,
+yy_fpi_in_ratio_gdp,2026,1.602199478,yy_fpi_in_ratio_gdp_res,
+yy_fpi_in_ratio_gdp,2027,1.6,yy_fpi_in_ratio_gdp_res,

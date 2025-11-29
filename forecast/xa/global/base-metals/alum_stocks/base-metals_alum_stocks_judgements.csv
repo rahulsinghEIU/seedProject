@@ -1,0 +1,15 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+alum_stk,2025-Q1,4143.02,alum_stk_res,
+alum_stk,2025-Q2,3643.02,alum_stk_res,
+alum_stk,2025-Q3,3843.02,alum_stk_res,
+alum_stk,2025-Q4,4121.38,alum_stk_res,
+alum_stk,2026-Q1,3780.38,alum_stk_res,
+alum_stk,2026-Q2,3530.38,alum_stk_res,
+alum_stk,2026-Q3,3430.38,alum_stk_res,
+alum_stk,2026-Q4,4019.41,alum_stk_res,
+alum_stk,2027-Q4,4130.5,alum_stk_res,annual
+alum_stk,2028-Q4,3416.3,alum_stk_res,annual
+alum_stk,2024-Q1,3837,alum_stk_res,
+alum_stk,2024-Q2,3537,alum_stk_res,
+alum_stk,2024-Q3,3887,alum_stk_res,
+alum_stk,2024-Q4,3991,alum_stk_res,

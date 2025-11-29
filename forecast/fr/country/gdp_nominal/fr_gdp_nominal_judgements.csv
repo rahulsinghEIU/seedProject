@@ -1,0 +1,9 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+pce_p,2028-Q4,0.491676,pce_p_res,annual_pct
+pce_p,2029-Q4,1.537268,pce_p_res,annual_pct
+gce_p,2028-Q4,2.000001,gce_p_res,annual_pct
+gce_p,2029-Q4,2.007775,gce_p_res,annual_pct
+gfcf_p,2028-Q4,4,gfcf_p_res,annual_pct
+gfcf_p,2029-Q4,4,gfcf_p_res,annual_pct
+stk,2028-Q4,11.49061,stk_res,annual
+stk,2029-Q4,14.9378,stk_res,annual

@@ -1,0 +1,5 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_gfcf_p,2025,9,yy_gfcf_p_res,pct
+yy_gce_p,2025,9,yy_gce_p_res,pct
+yy_pce_p,2025,9,yy_pce_p_res,pct
+yy_stk,2025,6400,yy_stk_res,

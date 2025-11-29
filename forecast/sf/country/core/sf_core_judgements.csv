@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_cpi,2024,3.6,yy_cpi_res,pct
+yy_cpi,2025,1.5,yy_cpi_res,pct
+yy_cpi,2026,2.6,yy_cpi_res,pct
+yy_gdp_r,2024,3,yy_gdp_r_res,pct
+yy_gdp_r,2025,2.2,yy_gdp_r_res,pct
+yy_gdp_r,2026,2.0,yy_gdp_r_res,pct

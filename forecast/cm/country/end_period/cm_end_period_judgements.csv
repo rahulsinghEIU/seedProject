@@ -1,0 +1,16 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_rp_e,2025,4.5,yy_rp_e_res,
+yy_rp_e,2026,4,yy_rp_e_res,
+yy_rp_e,2027,4,yy_rp_e_res,
+yy_rp_e,2028,4,yy_rp_e_res,
+yy_rp_e,2029,4,yy_rp_e_res,
+yy_xr_e,2025,560.65,yy_xr_e_res,
+yy_xr_e,2026,570.4,yy_xr_e_res,
+yy_xr_e,2027,585.68,yy_xr_e_res,
+yy_xr_e,2028,590.95,yy_xr_e_res,
+yy_xr_e,2029,590.96,yy_xr_e_res,
+yy_cpi_e,2025,0.818207819,yy_cpi_e_res,pct
+yy_cpi_e,2026,4.661759102,yy_cpi_e_res,pct
+yy_cpi_e,2027,0.797176445,yy_cpi_e_res,pct
+yy_cpi_e,2028,3.415280835,yy_cpi_e_res,pct
+yy_cpi_e,2029,2.445010251,yy_cpi_e_res,pct

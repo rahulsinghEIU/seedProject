@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+oil_palm_p_usd,2025-Q4,1168.39,oil_palm_p_usd_res,
+oil_palm_p_usd,2026-Q1,1144.8,oil_palm_p_usd_res,
+oil_palm_p_usd,2026-Q2,1125.49,oil_palm_p_usd_res,
+oil_palm_p_usd,2026-Q3,1109.37,oil_palm_p_usd_res,
+oil_palm_p_usd,2026-Q4,1111.83,oil_palm_p_usd_res,
+oil_palm_p_usd,2027-Q1,1123.63,oil_palm_p_usd_res,
+oil_palm_p_usd,2027-Q2,1141.34,oil_palm_p_usd_res,
+oil_palm_p_usd,2027-Q3,1162.68,oil_palm_p_usd_res,
+oil_palm_p_usd,2027-Q4,1183.02,oil_palm_p_usd_res,
+oil_palm_p_usd,2028-Q4,1247.82,oil_palm_p_usd_res,annual
+oil_palm_p_usd,2029-Q4,1248.82,oil_palm_p_usd_res,annual
+oil_palm_p_usd,2030-Q4,1249.3,oil_palm_p_usd_res,annual

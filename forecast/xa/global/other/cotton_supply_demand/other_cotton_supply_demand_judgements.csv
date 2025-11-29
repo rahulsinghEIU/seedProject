@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_cotton_cons,2024,24.9576,yy_cotton_cons_res,
+yy_cotton_cons,2025,25.5273,yy_cotton_cons_res,
+yy_cotton_cons,2026,25.2343,yy_cotton_cons_res,
+yy_cotton_prod,2024,24.1144,yy_cotton_prod_res,
+yy_cotton_prod,2025,25.69,yy_cotton_prod_res,
+yy_cotton_prod,2026,25.395,yy_cotton_prod_res,

@@ -1,0 +1,17 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+rp_e,2028-Q4,3.1,rp_e_res,annual
+rp_e,2029-Q4,3.1,rp_e_res,annual
+rp_e,2025-Q4,3.35,rp_e_res,
+rp_e,2026-Q1,3.1,rp_e_res,
+rp_e,2026-Q2,3.1,rp_e_res,
+rp_e,2026-Q3,3.1,rp_e_res,
+rp_e,2026-Q4,3.1,rp_e_res,
+rp_e,2027-Q1,3.1,rp_e_res,
+rp_e,2027-Q2,3.1,rp_e_res,
+rp_e,2027-Q3,3.1,rp_e_res,
+rp_e,2027-Q4,3.1,rp_e_res,
+rp_e,2030-Q4,3.1,rp_e_res,annual
+r3m_e,2027-Q4,3.1,r3m_e_res,annual
+r3m_e,2028-Q4,3.1,r3m_e_res,annual
+r3m_e,2029-Q4,3.1,r3m_e_res,annual
+r3m_e,2030-Q4,3.1,r3m_e_res,annual

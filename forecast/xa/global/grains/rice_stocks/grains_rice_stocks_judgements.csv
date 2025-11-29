@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_rice_stk,2025,187.3,yy_rice_stk_res,
+yy_rice_stk,2026,199.0,yy_rice_stk_res,
+yy_rice_stk,2027,201.8,yy_rice_stk_res,
+yy_rice_stk_ex,2025,54.4,yy_rice_stk_ex_res,
+yy_rice_stk_ex,2026,46,yy_rice_stk_ex_res,
+yy_rice_stk_ex,2027,46,yy_rice_stk_ex_res,

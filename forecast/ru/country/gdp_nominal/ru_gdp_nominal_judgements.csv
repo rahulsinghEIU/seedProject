@@ -1,0 +1,6 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+pce_p,2027-Q4,6,pce_p_res,annual_pct
+xgs,2028-Q4,2.458671476,xgs_res,annual_pct
+xgs,2029-Q4,1.402252992,xgs_res,annual_pct
+mgs,2028-Q4,4.034969738,mgs_res,annual_pct
+mgs,2029-Q4,4.034017453,mgs_res,annual_pct

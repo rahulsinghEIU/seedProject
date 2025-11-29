@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_liab_lcu,2025,98.5,yy_liab_lcu_res,
+yy_liab_lcu,2026,98.5,yy_liab_lcu_res,
+yy_liab_lcu,2027,98.5,yy_liab_lcu_res,
+yy_avg_mat,2025,7,yy_avg_mat_res,
+yy_avg_mat,2026,6.9,yy_avg_mat_res,
+yy_avg_mat,2027,7,yy_avg_mat_res,

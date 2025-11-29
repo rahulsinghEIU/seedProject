@@ -1,0 +1,4 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_mg_p_usd,2024,5,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2025,12,yy_mg_p_usd_res,pct
+yy_mg_p_usd,2026,8,yy_mg_p_usd_res,pct

@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+soybeans_p_usd,2025-Q4,380,soybeans_p_usd_res,
+soybeans_p_usd,2026-Q1,380,soybeans_p_usd_res,
+soybeans_p_usd,2026-Q2,410,soybeans_p_usd_res,
+soybeans_p_usd,2026-Q3,400,soybeans_p_usd_res,
+soybeans_p_usd,2026-Q4,400,soybeans_p_usd_res,
+soybeans_p_usd,2027-Q1,410,soybeans_p_usd_res,
+soybeans_p_usd,2027-Q2,430,soybeans_p_usd_res,
+soybeans_p_usd,2027-Q3,420,soybeans_p_usd_res,
+soybeans_p_usd,2027-Q4,418,soybeans_p_usd_res,annual
+soybeans_p_usd,2028-Q4,430,soybeans_p_usd_res,annual
+soybeans_p_usd,2025-Q1,410,soybeans_p_usd_res,
+soybeans_p_usd,2025-Q2,420,soybeans_p_usd_res,
+soybeans_p_usd,2025-Q3,400,soybeans_p_usd_res,

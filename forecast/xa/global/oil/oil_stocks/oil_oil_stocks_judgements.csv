@@ -1,0 +1,15 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+oil_stk,2025-Q1,2740,oil_stk_res,
+oil_stk,2025-Q2,2731,oil_stk_res,
+oil_stk,2025-Q3,2722,oil_stk_res,
+oil_stk,2025-Q4,2731,oil_stk_res,
+oil_stk,2026-Q1,2722,oil_stk_res,
+oil_stk,2026-Q2,2731,oil_stk_res,
+oil_stk,2026-Q3,2740,oil_stk_res,
+oil_stk,2026-Q4,2749,oil_stk_res,
+oil_stk,2027-Q4,2850,oil_stk_res,annual
+oil_stk,2028-Q4,2895,oil_stk_res,annual
+oil_stk,2024-Q1,2767.8,oil_stk_res,
+oil_stk,2024-Q2,2846,oil_stk_res,
+oil_stk,2024-Q3,2799,oil_stk_res,
+oil_stk,2024-Q4,2749.2,oil_stk_res,

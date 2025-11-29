@@ -1,0 +1,4 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_stk,2024,55,yy_stk_res,
+yy_stk,2025,25,yy_stk_res,
+yy_stk,2026,-5,yy_stk_res,

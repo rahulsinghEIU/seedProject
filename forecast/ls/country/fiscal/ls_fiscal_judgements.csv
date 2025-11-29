@@ -1,0 +1,10 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_brel_ratio_gdp,2025,60,yy_brel_ratio_gdp_res,
+yy_brel_ratio_gdp,2026,56.7,yy_brel_ratio_gdp_res,
+yy_brel_ratio_gdp,2027,55,yy_brel_ratio_gdp_res,
+yy_bexl_ratio_gdp,2025,55.8,yy_bexl_ratio_gdp_res,
+yy_bexl_ratio_gdp,2026,55.5,yy_bexl_ratio_gdp_res,
+yy_bexl_ratio_gdp,2027,54.6,yy_bexl_ratio_gdp_res,
+yy_pudl_reval,2025,8.5,yy_pudl_reval_res,
+yy_pudl_reval,2026,4.5,yy_pudl_reval_res,
+yy_pudl_reval,2027,6.1,yy_pudl_reval_res,

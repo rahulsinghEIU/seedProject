@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+lng_p_usd,2025-Q3,11.85,lng_p_usd_res,
+lng_p_usd,2025-Q4,11.43,lng_p_usd_res,
+lng_p_usd,2026-Q1,11.6,lng_p_usd_res,
+lng_p_usd,2026-Q2,11.24,lng_p_usd_res,
+lng_p_usd,2026-Q3,10.49,lng_p_usd_res,
+lng_p_usd,2026-Q4,10.67,lng_p_usd_res,
+lng_p_usd,2027-Q1,10.45,lng_p_usd_res,
+lng_p_usd,2027-Q2,9.84,lng_p_usd_res,
+lng_p_usd,2027-Q3,10.11,lng_p_usd_res,
+lng_p_usd,2027-Q4,10.33,lng_p_usd_res,
+lng_p_usd,2028-Q4,9.83,lng_p_usd_res,annual

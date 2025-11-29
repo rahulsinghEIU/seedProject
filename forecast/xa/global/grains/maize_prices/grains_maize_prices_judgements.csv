@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+maize_p_usd,2025-Q3,205,maize_p_usd_res,
+maize_p_usd,2025-Q4,205,maize_p_usd_res,
+maize_p_usd,2026-Q1,210,maize_p_usd_res,
+maize_p_usd,2026-Q2,215,maize_p_usd_res,
+maize_p_usd,2026-Q3,215,maize_p_usd_res,
+maize_p_usd,2026-Q4,210,maize_p_usd_res,
+maize_p_usd,2027-Q1,230,maize_p_usd_res,
+maize_p_usd,2027-Q2,240,maize_p_usd_res,
+maize_p_usd,2027-Q3,215,maize_p_usd_res,
+maize_p_usd,2027-Q4,215.0,maize_p_usd_res,
+maize_p_usd,2028-Q4,230.65,maize_p_usd_res,annual
+maize_p_usd,2029-Q4,236.40,maize_p_usd_res,annual
+maize_p_usd,2030-Q4,242.4,maize_p_usd_res,annual

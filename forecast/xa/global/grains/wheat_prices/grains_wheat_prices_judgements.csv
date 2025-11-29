@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+wheat_p_usd,2025-Q1,260,wheat_p_usd_res,
+wheat_p_usd,2025-Q2,240,wheat_p_usd_res,
+wheat_p_usd,2025-Q3,235,wheat_p_usd_res,
+wheat_p_usd,2025-Q4,240,wheat_p_usd_res,
+wheat_p_usd,2026-Q1,240,wheat_p_usd_res,
+wheat_p_usd,2026-Q2,260,wheat_p_usd_res,
+wheat_p_usd,2026-Q3,250.0,wheat_p_usd_res,
+wheat_p_usd,2026-Q4,250.2,wheat_p_usd_res,
+wheat_p_usd,2027-Q4,260.0,wheat_p_usd_res,annual
+wheat_p_usd,2028-Q4,276.3,wheat_p_usd_res,annual
+wheat_p_usd,2029-Q4,283.6,wheat_p_usd_res,annual
+wheat_p_usd,2030-Q4,291.1,wheat_p_usd_res,annual

@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+oil_rape_p_usd,2025-Q3,1277.59633687822,oil_rape_p_usd_res,
+oil_rape_p_usd,2025-Q4,1252.52209639794,oil_rape_p_usd_res,
+oil_rape_p_usd,2026-Q1,1227.23345454545,oil_rape_p_usd_res,
+oil_rape_p_usd,2026-Q2,1206.53300205832,oil_rape_p_usd_res,
+oil_rape_p_usd,2026-Q4,1191.88938833619,oil_rape_p_usd_res,
+oil_rape_p_usd,2027-Q1,1204.53906929674,oil_rape_p_usd_res,
+oil_rape_p_usd,2027-Q2,1223.52431080617,oil_rape_p_usd_res,
+oil_rape_p_usd,2027-Q3,1246.40093722127,oil_rape_p_usd_res,
+oil_rape_p_usd,2027-Q4,1268.2055567753,oil_rape_p_usd_res,
+oil_rape_p_usd,2028-Q4,1337.7,oil_rape_p_usd_res,annual
+oil_rape_p_usd,2026-Q3,1189.25225145798,oil_rape_p_usd_res,
+oil_rape_p_usd,2029-Q4,1338.7,oil_rape_p_usd_res,annual
+oil_rape_p_usd,2030-Q4,1339.8,oil_rape_p_usd_res,annual

@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+coal_p_usd,2025-Q3,112,coal_p_usd_res,
+coal_p_usd,2025-Q4,110,coal_p_usd_res,
+coal_p_usd,2026-Q1,100,coal_p_usd_res,
+coal_p_usd,2026-Q2,90,coal_p_usd_res,
+coal_p_usd,2026-Q3,80,coal_p_usd_res,
+coal_p_usd,2026-Q4,90,coal_p_usd_res,
+coal_p_usd,2027-Q1,85,coal_p_usd_res,
+coal_p_usd,2027-Q2,80,coal_p_usd_res,
+coal_p_usd,2027-Q3,78,coal_p_usd_res,
+coal_p_usd,2027-Q4,80,coal_p_usd_res,
+coal_p_usd,2028-Q4,73,coal_p_usd_res,annual

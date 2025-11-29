@@ -1,0 +1,5 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_xgs_p,2025,-5.037102672,yy_xgs_p_res,pct
+yy_xgs_p,2026,-5.386615812,yy_xgs_p_res,pct
+yy_mgs_p,2025,1.245110723,yy_mgs_p_res,pct
+yy_mgs_p,2026,3.211127369,yy_mgs_p_res,pct

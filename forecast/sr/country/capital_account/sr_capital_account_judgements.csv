@@ -1,0 +1,4 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_reserves_fx_usd,2025,1.6,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2026,1.6,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2027,1.7,yy_reserves_fx_usd_res,

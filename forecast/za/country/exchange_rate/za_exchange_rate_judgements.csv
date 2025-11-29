@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+xr,2024-Q1,1.28,xr_res,pct
+xr,2024-Q2,-2.43,xr_res,pct
+xr,2024-Q3,0.75,xr_res,pct
+xr,2024-Q4,1.25,xr_res,pct
+xr,2025-Q1,0.08,xr_res,pct
+xr,2025-Q2,-0.63,xr_res,pct
+xr,2025-Q3,1.44,xr_res,pct
+xr,2025-Q4,3.69,xr_res,pct
+xr,2026-Q4,3.2,xr_res,annual_pct
+xr,2027-Q4,4.1,xr_res,annual_pct
+xr,2028-Q4,4.3,xr_res,annual_pct

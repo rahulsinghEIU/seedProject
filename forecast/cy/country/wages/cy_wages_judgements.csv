@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_wage_r,2025,3.5,yy_wage_r_res,pct
+yy_wage_r,2026,1.154386298484478,yy_wage_r_res,pct
+yy_wage_r,2027,1.178781925343819,yy_wage_r_res,pct
+yy_wage_r,2028,0.8840864440078589,yy_wage_r_res,pct
+yy_wage_r,2029,0.8596892464370232,yy_wage_r_res,pct
+yy_wage_r,2030,0.8,yy_wage_r_res,pct
+yy_ulc,2025,3,yy_ulc_res,pct
+yy_ulc,2026,2.5,yy_ulc_res,pct
+yy_ulc,2027,1.50988923993804,yy_ulc_res,pct
+yy_ulc,2028,14,yy_ulc_res,pct
+yy_ulc,2029,1.3,yy_ulc_res,pct
+yy_ulc,2030,1.2,yy_ulc_res,pct

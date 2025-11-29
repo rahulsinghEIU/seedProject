@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+r10y,2025-Q4,3.555666667,r10y_res,annual
+r10y,2026-Q4,3.555666667,r10y_res,annual
+rl,2025-Q4,6.5,rl_res,annual
+rl,2026-Q4,6,rl_res,annual
+rd,2025-Q4,2.8,rd_res,annual
+rd,2026-Q4,2.3,rd_res,annual

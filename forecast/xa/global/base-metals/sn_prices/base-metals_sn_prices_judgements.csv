@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+sn_p_usd,2025-Q4,13.61,sn_p_usd_res,
+sn_p_usd,2026-Q4,14.97,sn_p_usd_res,
+sn_p_usd,2027-Q2,15.88,sn_p_usd_res,
+sn_p_usd,2027-Q3,14.97,sn_p_usd_res,
+sn_p_usd,2027-Q4,15.42,sn_p_usd_res,
+sn_p_usd,2025-Q3,13.97,sn_p_usd_res,
+sn_p_usd,2026-Q1,14.29,sn_p_usd_res,
+sn_p_usd,2026-Q2,14.97,sn_p_usd_res,
+sn_p_usd,2026-Q3,14.51,sn_p_usd_res,
+sn_p_usd,2027-Q1,15.42,sn_p_usd_res,
+sn_p_usd,2028-Q4,15.4,sn_p_usd_res,annual
+sn_p_usd,2029-Q4,15.3,sn_p_usd_res,annual
+sn_p_usd,2030-Q4,15,sn_p_usd_res,annual

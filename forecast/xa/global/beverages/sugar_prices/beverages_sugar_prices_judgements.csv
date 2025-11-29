@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+sugar_p_usd,2025-Q3,16.36,sugar_p_usd_res,
+sugar_p_usd,2025-Q4,16.56,sugar_p_usd_res,
+sugar_p_usd,2026-Q1,17.03,sugar_p_usd_res,
+sugar_p_usd,2026-Q2,17.43,sugar_p_usd_res,
+sugar_p_usd,2026-Q3,17.36,sugar_p_usd_res,
+sugar_p_usd,2026-Q4,17.28,sugar_p_usd_res,
+sugar_p_usd,2027-Q1,17.42,sugar_p_usd_res,
+sugar_p_usd,2027-Q2,17.03,sugar_p_usd_res,
+sugar_p_usd,2027-Q3,16.86,sugar_p_usd_res,
+sugar_p_usd,2027-Q4,16.62,sugar_p_usd_res,
+sugar_p_usd,2028-Q4,16.8,sugar_p_usd_res,annual
+sugar_p_usd,2029-Q4,16.73,sugar_p_usd_res,annual

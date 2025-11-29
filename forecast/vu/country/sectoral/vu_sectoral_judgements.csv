@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_agri_r_ratio_gdpp_r,2023,22.57661781,yy_agri_r_ratio_gdpp_r_res,
+yy_agri_r_ratio_gdpp_r,2024,22.84432474,yy_agri_r_ratio_gdpp_r_res,
+yy_agri_r_ratio_gdpp_r,2025,23.11360951,yy_agri_r_ratio_gdpp_r_res,
+yy_agri_r_ratio_gdpp_r,2026,22.97896712,yy_agri_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2023,13.51387931,yy_ind_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2024,13.74089112,yy_ind_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2025,13.87587041,yy_ind_r_ratio_gdpp_r_res,
+yy_ind_r_ratio_gdpp_r,2026,13.80851181,yy_ind_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2023,63.90950288,yy_serv_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2024,63.41478414,yy_serv_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2025,63.01052009,yy_serv_r_ratio_gdpp_r_res,
+yy_serv_r_ratio_gdpp_r,2026,63.21252106,yy_serv_r_ratio_gdpp_r_res,

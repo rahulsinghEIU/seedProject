@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+oil_sun_p_usd,2025-Q3,1236.49730274443,oil_sun_p_usd_res,
+oil_sun_p_usd,2025-Q4,1212.22967624357,oil_sun_p_usd_res,
+oil_sun_p_usd,2026-Q1,1187.75454545455,oil_sun_p_usd_res,
+oil_sun_p_usd,2026-Q2,1167.72000643225,oil_sun_p_usd_res,
+oil_sun_p_usd,2026-Q3,1150.99516080617,oil_sun_p_usd_res,
+oil_sun_p_usd,2026-Q4,1153.5474635506,oil_sun_p_usd_res,
+oil_sun_p_usd,2027-Q1,1165.79021655232,oil_sun_p_usd_res,
+oil_sun_p_usd,2027-Q2,1184.1647212693,oil_sun_p_usd_res,
+oil_sun_p_usd,2027-Q3,1206.30542881647,oil_sun_p_usd_res,
+oil_sun_p_usd,2027-Q4,1227.40861492281,oil_sun_p_usd_res,
+oil_sun_p_usd,2028-Q4,1294.6,oil_sun_p_usd_res,annual
+oil_sun_p_usd,2029-Q4,1295.7,oil_sun_p_usd_res,annual
+oil_sun_p_usd,2030-Q4,1296.7,oil_sun_p_usd_res,annual

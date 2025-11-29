@@ -1,0 +1,9 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_reserves_fx_usd,2023,7.74315231587676,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2024,7.348431199744557,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2025,6.950582695241809,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2026,7.50745320512084,yy_reserves_fx_usd_res,
+yy_reserves_gold_usd,2023,1.36569408083333,yy_reserves_gold_usd_res,
+yy_reserves_gold_usd,2024,1.6785548575,yy_reserves_gold_usd_res,
+yy_reserves_gold_usd,2025,2.4,yy_reserves_gold_usd_res,
+yy_reserves_gold_usd,2026,2.5,yy_reserves_gold_usd_res,

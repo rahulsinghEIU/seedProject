@@ -1,0 +1,9 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_stk,2024,2.277792402,yy_stk_res,
+yy_stk,2025,1,yy_stk_res,
+yy_stk,2026,0.3,yy_stk_res,
+yy_stk,2027,1,yy_stk_res,
+yy_stk,2028,1,yy_stk_res,
+yy_stk,2029,1.308286277,yy_stk_res,
+yy_pce_p,2025,1.9,yy_pce_p_res,pct
+yy_pce_p,2026,1.8,yy_pce_p_res,pct

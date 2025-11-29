@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_wage_r,2025,1.2,yy_wage_r_res,pct
+yy_wage_r,2026,1,yy_wage_r_res,pct
+yy_wage_r,2027,0.8,yy_wage_r_res,pct
+yy_wage_r,2028,0.6,yy_wage_r_res,pct
+yy_wage_r,2029,0.4,yy_wage_r_res,pct
+yy_wage_r,2030,0.3,yy_wage_r_res,pct

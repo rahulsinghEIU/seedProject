@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+barley_p_usd,2025-Q3,113.8085417,barley_p_usd_res,
+barley_p_usd,2025-Q4,116.23,barley_p_usd_res,
+barley_p_usd,2026-Q1,116.23,barley_p_usd_res,
+barley_p_usd,2026-Q2,125.915833,barley_p_usd_res,
+barley_p_usd,2026-Q3,121.0729167,barley_p_usd_res,
+barley_p_usd,2026-Q4,121.0729167,barley_p_usd_res,
+barley_p_usd,2027-Q1,123.494375,barley_p_usd_res,
+barley_p_usd,2027-Q2,133.180208333333,barley_p_usd_res,
+barley_p_usd,2027-Q3,125.915833333333,barley_p_usd_res,
+barley_p_usd,2027-Q4,121.07291666667,barley_p_usd_res,
+barley_p_usd,2028-Q4,133.7855729,barley_p_usd_res,annual
+barley_p_usd,2029-Q4,137.80519375,barley_p_usd_res,annual
+barley_p_usd,2030-Q4,141.945585091629,barley_p_usd_res,annual

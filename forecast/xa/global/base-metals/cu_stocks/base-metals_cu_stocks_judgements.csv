@@ -1,0 +1,14 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+cu_stk,2025-Q1,1152.32,cu_stk_res,
+cu_stk,2025-Q2,1212.55,cu_stk_res,
+cu_stk,2025-Q3,1272.78,cu_stk_res,
+cu_stk,2025-Q4,1333.01,cu_stk_res,
+cu_stk,2026-Q1,1333.01,cu_stk_res,
+cu_stk,2026-Q2,1306.29,cu_stk_res,
+cu_stk,2026-Q3,1292.93,cu_stk_res,
+cu_stk,2026-Q4,1279.57,cu_stk_res,
+cu_stk,2027-Q4,1005.22,cu_stk_res,annual
+cu_stk,2024-Q1,867.21,cu_stk_res,
+cu_stk,2024-Q2,991,cu_stk_res,
+cu_stk,2024-Q3,1041.55,cu_stk_res,
+cu_stk,2024-Q4,1092.1,cu_stk_res,

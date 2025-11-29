@@ -1,0 +1,4 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_gdp_p,2024,1.621070261,yy_gdp_p_res,pct
+yy_gdp_p,2025,0.57441017,yy_gdp_p_res,pct
+yy_gdp_p,2026,1.164899597,yy_gdp_p_res,pct

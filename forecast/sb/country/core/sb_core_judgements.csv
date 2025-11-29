@@ -1,0 +1,10 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_cpi,2024,3.858366635,yy_cpi_res,pct
+yy_cpi,2025,3.670213678,yy_cpi_res,pct
+yy_cpi,2026,3.337492984,yy_cpi_res,pct
+yy_gdp_r,2024,2.80625585,yy_gdp_r_res,pct
+yy_gdp_r,2025,2.990737423,yy_gdp_r_res,pct
+yy_gdp_r,2026,3.242000729,yy_gdp_r_res,pct
+yy_xr,2024,8.454835833,yy_xr_res,
+yy_xr,2025,8.501565833,yy_xr_res,
+yy_xr,2026,8.47,yy_xr_res,

@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_pb_cons,2025,13172.1,yy_pb_cons_res,
+yy_pb_cons,2026,13388.1,yy_pb_cons_res,
+yy_pb_prod,2025,13251.6,yy_pb_prod_res,
+yy_pb_prod,2026,13325.6,yy_pb_prod_res,
+yy_pb_cons,2024,12998,yy_pb_cons_res,
+yy_pb_prod,2024,13029,yy_pb_prod_res,

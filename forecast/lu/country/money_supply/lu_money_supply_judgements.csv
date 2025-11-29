@@ -1,0 +1,16 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_sdc,2025,12.39791758651025,yy_sdc_res,pct
+yy_sdc,2026,9.859990453724787,yy_sdc_res,pct
+yy_sdc,2027,12.5815057681496,yy_sdc_res,pct
+yy_sdc,2028,13.4915148598451,yy_sdc_res,pct
+yy_sdc,2029,10.14680900052476,yy_sdc_res,pct
+yy_mss,2025,6.84225359416013,yy_mss_res,pct
+yy_mss,2026,4.049833808109815,yy_mss_res,pct
+yy_mss,2027,4.411125382105596,yy_mss_res,pct
+yy_mss,2028,6.13895558363371,yy_mss_res,pct
+yy_mss,2029,3.506663277680588,yy_mss_res,pct
+yy_mst,2025,12.39791758651025,yy_mst_res,pct
+yy_mst,2026,9.859990453724787,yy_mst_res,pct
+yy_mst,2027,12.5815057681496,yy_mst_res,pct
+yy_mst,2028,13.4915148598451,yy_mst_res,pct
+yy_mst,2029,10.14680900052476,yy_mst_res,pct

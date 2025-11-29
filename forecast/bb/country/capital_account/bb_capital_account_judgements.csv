@@ -1,0 +1,11 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_fdi_out_ratio_gdp,2025,-0.066568831,yy_fdi_out_ratio_gdp_res,
+yy_fdi_out_ratio_gdp,2026,-0.065356469,yy_fdi_out_ratio_gdp_res,
+yy_reserves_fx_usd,2024,1.684968637213895,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2025,1.8,yy_reserves_fx_usd_res,
+yy_reserves_fx_usd,2026,1.686843495814576,yy_reserves_fx_usd_res,
+yy_reserves_gold_usd,2024,0,yy_reserves_gold_usd_res,
+yy_reserves_gold_usd,2025,0,yy_reserves_gold_usd_res,
+yy_reserves_gold_usd,2026,0,yy_reserves_gold_usd_res,
+yy_fdi_in_ratio_gdp,2025,5.325506471,yy_fdi_in_ratio_gdp_res,
+yy_fdi_in_ratio_gdp,2026,5.228517503,yy_fdi_in_ratio_gdp_res,

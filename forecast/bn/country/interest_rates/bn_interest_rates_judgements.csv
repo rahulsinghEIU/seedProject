@@ -1,0 +1,11 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_rl,2025,5.5,yy_rl_res,
+yy_rl,2026,5.5,yy_rl_res,
+yy_rl,2027,5.5,yy_rl_res,
+yy_rl,2028,5.5,yy_rl_res,
+yy_rl,2029,5.5,yy_rl_res,
+yy_rd,2025,0.38,yy_rd_res,
+yy_rd,2026,0.35,yy_rd_res,
+yy_rd,2027,0.3,yy_rd_res,
+yy_rd,2028,0.3,yy_rd_res,
+yy_rd,2029,0.3,yy_rd_res,

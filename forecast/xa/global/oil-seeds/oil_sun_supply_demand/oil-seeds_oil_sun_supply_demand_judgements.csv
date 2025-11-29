@@ -1,0 +1,7 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_oil_sun_cons,2025,22364,yy_oil_sun_cons_res,
+yy_oil_sun_cons,2026,23270.5,yy_oil_sun_cons_res,
+yy_oil_sun_cons,2024,23660,yy_oil_sun_cons_res,
+yy_oil_sun_prod,2025,20975.6,yy_oil_sun_prod_res,
+yy_oil_sun_prod,2026,22988.8,yy_oil_sun_prod_res,
+yy_oil_sun_prod,2024,23600,yy_oil_sun_prod_res,

@@ -1,0 +1,17 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_xgs_p,2020,-26.29609907,yy_xgs_p_res,pct
+yy_xgs_p,2021,5,yy_xgs_p_res,pct
+yy_xgs_p,2022,6.1,yy_xgs_p_res,pct
+yy_xgs_p,2023,2.821109547,yy_xgs_p_res,pct
+yy_xgs_p,2024,2.903937179,yy_xgs_p_res,pct
+yy_xgs_p,2025,18.8,yy_xgs_p_res,pct
+yy_xgs_p,2026,4.4,yy_xgs_p_res,pct
+yy_xgs_p,2027,4.9,yy_xgs_p_res,pct
+yy_mgs_p,2020,-26.29609907,yy_mgs_p_res,pct
+yy_mgs_p,2021,5,yy_mgs_p_res,pct
+yy_mgs_p,2022,6.1,yy_mgs_p_res,pct
+yy_mgs_p,2023,2.821109547,yy_mgs_p_res,pct
+yy_mgs_p,2024,2.903937179,yy_mgs_p_res,pct
+yy_mgs_p,2025,18.8,yy_mgs_p_res,pct
+yy_mgs_p,2026,6.1,yy_mgs_p_res,pct
+yy_mgs_p,2027,4.9,yy_mgs_p_res,pct

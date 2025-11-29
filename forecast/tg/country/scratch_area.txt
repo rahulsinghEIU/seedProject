@@ -1,0 +1,1 @@
+{"chartData":"[]","valueData":"{\"address\":\"scratch_area!A1\",\"values\":[[\"\"]],\"formulas\":[[\"\"]]}","chartDataSheetName":"scratch_area"}

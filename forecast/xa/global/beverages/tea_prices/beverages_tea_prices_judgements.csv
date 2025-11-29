@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+tea_p_usd,2025-Q3,3.03,tea_p_usd_res,
+tea_p_usd,2025-Q4,3.01,tea_p_usd_res,
+tea_p_usd,2026-Q1,3,tea_p_usd_res,
+tea_p_usd,2026-Q2,2.95,tea_p_usd_res,
+tea_p_usd,2026-Q3,2.9,tea_p_usd_res,
+tea_p_usd,2026-Q4,2.85,tea_p_usd_res,
+tea_p_usd,2027-Q1,2.8,tea_p_usd_res,
+tea_p_usd,2027-Q2,2.85,tea_p_usd_res,
+tea_p_usd,2027-Q3,2.9,tea_p_usd_res,
+tea_p_usd,2027-Q4,2.93,tea_p_usd_res,
+tea_p_usd,2028-Q4,2.89,tea_p_usd_res,annual
+tea_p_usd,2029-Q4,2.8775,tea_p_usd_res,annual

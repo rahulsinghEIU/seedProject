@@ -1,0 +1,17 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_ca_xgs_usd,2025,-0.21392047290420546,yy_ca_xgs_usd_res,pct
+yy_ca_xgs_usd,2026,4.970032040421923,yy_ca_xgs_usd_res,pct
+yy_ca_xg_ratio_ca_xgs,2025,31.16279069767442,yy_ca_xg_ratio_ca_xgs_res,
+yy_ca_xg_ratio_ca_xgs,2026,31.16279069767442,yy_ca_xg_ratio_ca_xgs_res,
+yy_ca_mgs_usd,2025,-0.6798246337350489,yy_ca_mgs_usd_res,pct
+yy_ca_mgs_usd,2026,4.060879152758767,yy_ca_mgs_usd_res,pct
+yy_ca_mg_ratio_ca_mgs,2025,58.55704697986577,yy_ca_mg_ratio_ca_mgs_res,
+yy_ca_mg_ratio_ca_mgs,2026,58.55704697986577,yy_ca_mg_ratio_ca_mgs_res,
+yy_ca_xi_ratio_gdp,2025,3.0185376023576143,yy_ca_xi_ratio_gdp_res,
+yy_ca_xi_ratio_gdp,2026,2.8765435612128574,yy_ca_xi_ratio_gdp_res,
+yy_ca_mi_ratio_gdp,2025,-0.387668682123709,yy_ca_mi_ratio_gdp_res,
+yy_ca_mi_ratio_gdp,2026,-0.398349114350039,yy_ca_mi_ratio_gdp_res,
+yy_ca_xi2_ratio_gdp,2025,41.06102959179316,yy_ca_xi2_ratio_gdp_res,
+yy_ca_xi2_ratio_gdp,2026,38.172417126025245,yy_ca_xi2_ratio_gdp_res,
+yy_ca_mi2_ratio_gdp,2025,-9.318608697058176,yy_ca_mi2_ratio_gdp_res,
+yy_ca_mi2_ratio_gdp,2026,-8.799611398521678,yy_ca_mi2_ratio_gdp_res,

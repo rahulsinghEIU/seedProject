@@ -1,0 +1,15 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+rp_e,2025-Q4,6.5,rp_e_res,
+rp_e,2026-Q4,5.5,rp_e_res,annual
+rp_e,2027-Q4,4.5,rp_e_res,annual
+rp_e,2028-Q4,3.5,rp_e_res,annual
+rp_e,2029-Q4,3.5,rp_e_res,annual
+rp_e,2025-Q3,6.5,rp_e_res,
+rp_e,2026-Q1,6.25,rp_e_res,
+rp_e,2026-Q2,6,rp_e_res,
+rp_e,2026-Q3,5.75,rp_e_res,
+rp_e,2027-Q1,5.25,rp_e_res,
+rp_e,2027-Q2,5,rp_e_res,
+rp_e,2027-Q3,4.75,rp_e_res,
+r3m_e,2028-Q4,3.7,r3m_e_res,annual
+r3m_e,2029-Q4,3.7,r3m_e_res,annual

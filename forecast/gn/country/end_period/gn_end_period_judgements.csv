@@ -1,0 +1,10 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_r3m_e,2022,11.5,yy_r3m_e_res,
+yy_r3m_e,2023,11,yy_r3m_e_res,
+yy_r3m_e,2024,10.75,yy_r3m_e_res,
+yy_r3m_e,2025,10,yy_r3m_e_res,
+yy_r3m_e,2026,9.25,yy_r3m_e_res,
+yy_xr_e,2025,8713.5,yy_xr_e_res,
+yy_xr_e,2026,8739.7,yy_xr_e_res,
+yy_cpi_e,2025,5.7,yy_cpi_e_res,pct
+yy_cpi_e,2026,3.8,yy_cpi_e_res,pct

@@ -1,0 +1,13 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+yy_redemp,2024,284,yy_redemp_res,
+yy_redemp,2025,372,yy_redemp_res,
+yy_redemp,2026,372,yy_redemp_res,
+yy_redemp,2027,375,yy_redemp_res,
+yy_avg_mat,2024,5.2,yy_avg_mat_res,
+yy_avg_mat,2025,5.3,yy_avg_mat_res,
+yy_avg_mat,2026,5.3,yy_avg_mat_res,
+yy_avg_mat,2027,5.4,yy_avg_mat_res,
+yy_liab_lcu,2024,93.8,yy_liab_lcu_res,
+yy_liab_lcu,2025,93.6,yy_liab_lcu_res,
+yy_liab_lcu,2026,94.2,yy_liab_lcu_res,
+yy_liab_lcu,2027,94.4,yy_liab_lcu_res,

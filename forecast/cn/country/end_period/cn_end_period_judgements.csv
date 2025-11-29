@@ -1,0 +1,6 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+rp_e,2024-Q4,1.5,rp_e_res,annual
+rp_e,2027-Q4,0.9,rp_e_res,annual
+rp_e,2028-Q4,0.8,rp_e_res,annual
+rp_e,2029-Q4,0.8,rp_e_res,annual
+rp_e,2030-Q4,0.8,rp_e_res,annual

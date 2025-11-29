@@ -1,0 +1,12 @@
+NAME,DATE,VALUE,ENDOGENIZE,TRANSFORM
+steel_p_usd,2025-Q3,475,steel_p_usd_res,
+steel_p_usd,2025-Q4,475,steel_p_usd_res,
+steel_p_usd,2026-Q1,495,steel_p_usd_res,
+steel_p_usd,2026-Q2,505,steel_p_usd_res,
+steel_p_usd,2026-Q3,500,steel_p_usd_res,
+steel_p_usd,2026-Q4,490,steel_p_usd_res,
+steel_p_usd,2027-Q1,520,steel_p_usd_res,
+steel_p_usd,2027-Q2,530,steel_p_usd_res,
+steel_p_usd,2027-Q3,525,steel_p_usd_res,
+steel_p_usd,2027-Q4,515,steel_p_usd_res,
+steel_p_usd,2028-Q4,543,steel_p_usd_res,annual
