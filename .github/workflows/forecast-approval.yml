@@ -3,7 +3,7 @@ name: Forecast Approval Trigger
 on:
   push:
     branches:
-      - 'release*'     # Trigger when PR is merged to any release* branch
+      - 'release**'     # Trigger when PR is merged to any release* branch
 
 jobs:
   trigger-endpoint:
