@@ -87,16 +87,13 @@ jobs:
           # ------------------------------------
           # 3. Get bearer token
           # ------------------------------------
+          FORM_BODY="grant_type=&username=${{ secrets.API_USERNAME }}&password=${{ secrets.API_PASSWORD }}&scope=&client_id=&client_secret="
+
           LOGIN_RESPONSE=$(curl -s -X POST \
+            "$API_URL/v1/data/login" \
             -H "accept: application/json" \
             -H "Content-Type: application/x-www-form-urlencoded" \
-            --data-urlencode "grant_type=" \
-            --data-urlencode "username=${{ secrets.API_USERNAME }}" \
-            --data-urlencode "password=${{ secrets.API_PASSWORD }}" \
-            --data-urlencode "scope=" \
-            --data-urlencode "client_id=" \
-            --data-urlencode "client_secret=" \
-            "$API_URL/v1/data/login")
+            --data "$FORM_BODY")
 
           echo "Login Response: $LOGIN_RESPONSE"
 
