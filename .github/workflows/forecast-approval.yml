@@ -28,8 +28,8 @@ jobs:
       - name: Extract metadata
         id: metadata
         run: |
-          # Find the first changed file that ends with forecast_metadata.json
-          # METADATA_FILE=$(echo "${{ steps.changes.outputs.changed }}" | tr ' ' '\n' | grep 'forecast_metadata.json$' | head -n 1)
+          # Find the first changed forecast_metadata.json. Ensures there was actually an approval.
+
           METADATA_FILE="${{ steps.changes.outputs.changed }}"
           if [ -z "$METADATA_FILE" ]; then
             echo "No forecast_metadata.json file found in the changed files. Exiting."
@@ -38,37 +38,112 @@ jobs:
 
           echo "Metadata file found at: $METADATA_FILE"
           echo "Metadata file changed. Extracting values..."
+
           MODEL_VERSION=$(jq -r '.modelContainerVersion' $METADATA_FILE)
           ANALYST_BRANCH=$(jq -r '.branchName' $METADATA_FILE)
+          IFS='/' read -ra PARTS <<< "$ANALYST_BRANCH"
+          FORECAST=$(IFS='/'; echo "${PARTS[*]:1}")
 
           echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
           echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
-          echo "model_version=$MODEL_VERSION"
-          echo "analyst_branch=$ANALYST_BRANCH"
-      
-      # Step 4: Call the approval API
-      - name: Call Approval API
-        id: api_call
+          echo "forecast=$FORECAST" >> $GITHUB_OUTPUT
+
+      # Step 4: Authenticate and get bearer token
+      - name: Get Bearer Token + Call API
+        id: call_api
         run: |
+          # ------------------------------------
+          # 1. Prepare inputs
+          # ------------------------------------
+          REPO_NAME="${{ github.event.repository.name }}"
+          BASE_URL="${{ secrets.API_URL }}"
+
+          FORECAST="${{ steps.metadata.outputs.forecast }}"
+          BRANCH_NAME="${{ steps.metadata.outputs.analyst_branch }}"
+          MODEL_VERSION="${{ steps.metadata.outputs.model_version }}"
+
+          echo "Repo: $REPO_NAME"
+          echo "Forecast: $FORECAST"
+          echo "Branch name: $BRANCH_NAME"
+          echo "Model version: $MODEL_VERSION"
+
+          # ------------------------------------
+          # 2. Environment based overrides
+          # ------------------------------------
+          if [[ "$REPO_NAME" == *"-dev" ]]; then
+            API_URL="${BASE_URL/\{env\}/-dev}"
+            MODEL_VERSION=""
+            BRANCH_NAME="main"
+          else
+            API_URL="${BASE_URL/\{env\}/}"
+          fi
+
+          echo "Final API URL: $API_URL"
+          echo "Final MODEL_VERSION: $MODEL_VERSION"
+          echo "Final BRANCH_NAME: $BRANCH_NAME"
+
+          # ------------------------------------
+          # 3. Get bearer token
+          # ------------------------------------
+          LOGIN_RESPONSE=$(curl -s -X POST \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"username\": \"${{ secrets.API_USERNAME }}\",
+              \"password\": \"${{ secrets.API_PASSWORD }}\"
+            }" \
+            "$API_URL/login")
+
+          echo "Login Response: $LOGIN_RESPONSE"
+
+          TOKEN=$(echo "$LOGIN_RESPONSE" | jq -r '.access_token // .token // .jwt // empty')
+
+          if [[ -z "$TOKEN" || "$TOKEN" == "null" ]]; then
+            echo "Failed to obtain bearer token"
+            exit 1
+          fi
+
+          echo "Token acquired."
+
+          # ------------------------------------
+          # 4. Build payload & send approval
+          # ------------------------------------
+          JSON_BODY=$(jq -n \
+            --arg forecast "$FORECAST" \
+            --arg branch_name "$BRANCH_NAME" \
+            --arg invoke_route "forecast_approval" \
+            --arg model "all" \
+            --arg merge_into_main "True" \
+            --arg model_version "$MODEL_VERSION" \
+            --arg run_dq "True" \
+            --arg residual_file_path "" \
+            '{
+              forecast: $forecast,
+              branch_name: $branch_name,
+              invoke_route: $invoke_route,
+              model: $model,
+              merge_into_main: $merge_into_main,
+              model_version: $model_version,
+              run_dq: $run_dq,
+              residual_file_path: $residual_file_path
+            }'
+          )
+
+          echo "Request JSON:"
+          echo "$JSON_BODY" | jq .
+
+          # ------------------------------------
+          # 5. Call forecast approval API
+          # ------------------------------------
           RESPONSE=$(curl -s -o response.txt -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-            -d "{
-              \"invoke_route\": \"forecast_approval\",
-              \"forecast\": \"country\\\\ca\",
-              \"model_version\": \"\",
-              \"model\": \"all\",
-              \"run_dq\": \"True\",
-              \"branch_name\": \"${{ steps.metadata.outputs.analyst_branch }}\",
-              \"residual_file_path\": \"${{ steps.metadata.outputs.analyst_branch }}\",
-              \"merge_into_main\": \"True\"
-            }" \
-            "${{ secrets.API_URL }}")
+            -H "Authorization: Bearer $TOKEN" \
+            -d "$JSON_BODY" \
+            "$API_URL/v1/model/invoke")
 
-          echo "API HTTP Status: $RESPONSE"
+          echo "HTTP Status: $RESPONSE"
           echo "API Response: $(cat response.txt)"
 
-          if [ "$RESPONSE" != "200" ]; then
+          if [[ "$RESPONSE" != "200" ]]; then
             echo "API call failed"
             echo "failed=true" >> $GITHUB_OUTPUT
             exit 1
