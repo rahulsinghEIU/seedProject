@@ -52,8 +52,8 @@ jobs:
       - name: Get Bearer Token + Call API
         id: call_api
         env:
-          API_USERNAME: ${{ secrets.API_USERNAME }}
-          API_PASSWORD: ${{ secrets.API_PASSWORD }}
+          API_USERNAME: ${{ secrets.FORECASTING_DATA_API_USER }}
+          API_PASSWORD: ${{ secrets.FORECASTING_DATA_API_PASS }}
         run: |
           # ------------------------------------
           # 1. Prepare inputs
