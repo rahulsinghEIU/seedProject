@@ -115,6 +115,7 @@ jobs:
             --arg merge_into_main "True" \
             --arg model_version "$MODEL_VERSION" \
             --arg run_dq "True" \
+            --arg residual_file_path "" \
             '{
               forecast: $forecast,
               branch_name: $branch_name,
@@ -122,7 +123,8 @@ jobs:
               model: $model,
               merge_into_main: $merge_into_main,
               model_version: $model_version,
-              run_dq: $run_dq
+              run_dq: $run_dq,
+              residual_file_path: $residual_file_path
             }'
           )
 
