@@ -81,6 +81,7 @@ jobs:
           echo "Final API URL: $API_URL"
           echo "Final MODEL_VERSION: $MODEL_VERSION"
           echo "Final BRANCH_NAME: $BRANCH_NAME"
+          echo "Final FORECAST: $FORECAST"
 
           # ------------------------------------
           # 3. Get bearer token
