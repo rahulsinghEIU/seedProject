@@ -58,7 +58,7 @@ jobs:
           REPO_NAME="${{ github.event.repository.name }}"
           BASE_URL="${{ secrets.API_URL }}"
 
-          FORECAST="${{ steps.forecast.outputs.forecast }}"
+          FORECAST="${{ steps.metadata.outputs.forecast }}"
           BRANCH_NAME="${{ steps.metadata.outputs.analyst_branch }}"
           MODEL_VERSION="${{ steps.metadata.outputs.model_version }}"
 
@@ -136,7 +136,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer $TOKEN" \
             -d "$JSON_BODY" \
-            "$API_URL/forecast_approval")
+            "$API_URL/v1/model/invoke")
 
           echo "HTTP Status: $RESPONSE"
           echo "API Response: $(cat response.txt)"
