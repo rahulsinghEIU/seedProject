@@ -55,7 +55,8 @@ jobs:
           # ------------------------------------
           # 1. Prepare inputs
           # ------------------------------------
-          REPO_NAME="${{ github.event.repository.name }}"
+          # REPO_NAME="${{ github.event.repository.name }}"
+          REPO_NAME="seedProject-dev"
           BASE_URL="${{ secrets.API_URL }}"
 
           FORECAST="${{ steps.metadata.outputs.forecast }}"
