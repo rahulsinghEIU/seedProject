@@ -89,8 +89,13 @@ jobs:
           # ------------------------------------
           LOGIN_RESPONSE=$(curl -s -X POST \
             -H "accept: application/json" \
-            -H "Content-Type: application/json" \
-            -d "$(jq -n --arg u "${{ secrets.API_USERNAME }}" --arg p "${{ secrets.API_PASSWORD }}" '{username: $u, password: $p}')" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            --data-urlencode "grant_type=" \
+            --data-urlencode "username=${{ secrets.API_USERNAME }}" \
+            --data-urlencode "password=${{ secrets.API_PASSWORD }}" \
+            --data-urlencode "scope=" \
+            --data-urlencode "client_id=" \
+            --data-urlencode "client_secret=" \
             "$API_URL/v1/data/login")
 
           echo "Login Response: $LOGIN_RESPONSE"
