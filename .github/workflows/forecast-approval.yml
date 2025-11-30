@@ -51,6 +51,9 @@ jobs:
       # Step 4: Authenticate and get bearer token
       - name: Get Bearer Token + Call API
         id: call_api
+        env:
+          API_USERNAME: ${{ secrets.API_USERNAME }}
+          API_PASSWORD: ${{ secrets.API_PASSWORD }}
         run: |
           # ------------------------------------
           # 1. Prepare inputs
@@ -89,11 +92,9 @@ jobs:
           # ------------------------------------
           FORM_BODY="grant_type=&username=${{ secrets.API_USERNAME }}&password=${{ secrets.API_PASSWORD }}&scope=&client_id=&client_secret="
 
-          LOGIN_RESPONSE=$(curl -s -X POST \
-            "$API_URL/v1/data/login" \
-            -H "accept: application/json" \
-            -H "Content-Type: application/x-www-form-urlencoded" \
-            --data "$FORM_BODY")
+          LOGIN_RESPONSE=$(curl -sS -X POST "$API_URL/v1/data/login" \
+            --data-urlencode "username=$API_USERNAME" \
+            --data-urlencode "password=$API_PASSWORD")
 
           echo "Login Response: $LOGIN_RESPONSE"
 
