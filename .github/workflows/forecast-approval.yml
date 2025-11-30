@@ -87,11 +87,8 @@ jobs:
           # 3. Get bearer token
           # ------------------------------------
           LOGIN_RESPONSE=$(curl -s -X POST \
-            -H "Content-Type: application/json" \
-            -d "{
-              \"username\": \"${{ secrets.API_USERNAME }}\",
-              \"password\": \"${{ secrets.API_PASSWORD }}\"
-            }" \
+            -H "Content-Type: application/x-www-form-urlencoded" \
+            -d "username=${{ secrets.API_USERNAME }}&password=${{ secrets.API_PASSWORD }}" \
             "$API_URL/v1/data/login")
 
           echo "Login Response: $LOGIN_RESPONSE"
