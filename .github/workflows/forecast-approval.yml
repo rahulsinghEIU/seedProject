@@ -92,7 +92,7 @@ jobs:
               \"username\": \"${{ secrets.API_USERNAME }}\",
               \"password\": \"${{ secrets.API_PASSWORD }}\"
             }" \
-            "$API_URL/login")
+            "$API_URL/v1/data/login")
 
           echo "Login Response: $LOGIN_RESPONSE"
 
