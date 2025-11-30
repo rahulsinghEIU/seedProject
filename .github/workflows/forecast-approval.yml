@@ -41,28 +41,70 @@ jobs:
           MODEL_VERSION=$(jq -r '.modelContainerVersion' $METADATA_FILE)
           ANALYST_BRANCH=$(jq -r '.branchName' $METADATA_FILE)
 
+          # Split into array
+          IFS='/' read -ra PARTS <<< "$ANALYST_BRANCH"
+          FORECAST=$(IFS='/'; echo "${PARTS[*]:1}")
+
           echo "model_version=$MODEL_VERSION" >> $GITHUB_OUTPUT
           echo "analyst_branch=$ANALYST_BRANCH" >> $GITHUB_OUTPUT
+          echo "forecast=$FORECAST" >> $GITHUB_OUTPUT
           echo "model_version=$MODEL_VERSION"
           echo "analyst_branch=$ANALYST_BRANCH"
+          
       
-      # Step 4: Call the approval API
+      # Step 4: Authenticate and get bearer token
+      - name: Get Bearer Token
+        id: auth
+        run: |
+          LOGIN_RESPONSE=$(curl -s -X POST \
+            -H "Content-Type: application/json" \
+            -d "{
+              \"username\": \"${{ secrets.API_USERNAME }}\",
+              \"password\": \"${{ secrets.API_PASSWORD }}\"
+            }" \
+            "${{ secrets.API_URL }}/login")
+
+          echo "Login Response: $LOGIN_RESPONSE"
+
+          TOKEN=$(echo "$LOGIN_RESPONSE" | jq -r '.access_token // .token // .jwt // empty')
+
+          if [ -z "$TOKEN" ] || [ "$TOKEN" = "null" ]; then
+            echo "Failed to obtain bearer token"
+            exit 1
+          fi
+
+          echo "token=$TOKEN" >> $GITHUB_OUTPUT
+
+      # Step 5: Call the approval API
       - name: Call Approval API
         id: api_call
         run: |
+          JSON_BODY=$(jq -n \
+            --arg forecast "country/ca" \
+            --arg branch_name "${{ steps.metadata.outputs.analyst_branch }}" \
+            --arg invoke_route "forecast_approval" \
+            --arg model "all" \
+            --arg merge_into_main "True" \
+            --arg model_version "" \
+            --arg run_dq "True" \
+            '{
+              forecast: $forecast,
+              branch_name: $branch_name,
+              invoke_route: $invoke_route,
+              model: $model,
+              merge_into_main: $merge_into_main,
+              model_version: $model_version,
+              run_dq: $run_dq
+            }'
+          )
+
+          echo "Request JSON:"
+          echo "$JSON_BODY"
+
           RESPONSE=$(curl -s -o response.txt -w "%{http_code}" -X POST \
             -H "Content-Type: application/json" \
-            -H "Authorization: Bearer ${{ secrets.TOKEN }}" \
-            -d "{
-              \"invoke_route\": \"forecast_approval\",
-              \"forecast\": \"country\\\\ca\",
-              \"model_version\": \"\",
-              \"model\": \"all\",
-              \"run_dq\": \"True\",
-              \"branch_name\": \"${{ steps.metadata.outputs.analyst_branch }}\",
-              \"residual_file_path\": \"${{ steps.metadata.outputs.analyst_branch }}\",
-              \"merge_into_main\": \"True\"
-            }" \
+            -H "Authorization: Bearer ${{ steps.auth.outputs.token }}" \
+            -d "$JSON_BODY" \
             "${{ secrets.API_URL }}")
 
           echo "API HTTP Status: $RESPONSE"
