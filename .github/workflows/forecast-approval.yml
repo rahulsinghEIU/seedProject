@@ -72,7 +72,7 @@ jobs:
           # 2. Environment based overrides
           # ------------------------------------
           if [[ "$REPO_NAME" == *"-dev" ]]; then
-            API_URL="${BASE_URL/\{env\}/-dev}"
+            API_URL="${BASE_URL/\{env\}/dev-}"
             MODEL_VERSION=""
             BRANCH_NAME="main"
           else
